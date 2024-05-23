@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center"><u>class_shedule FORM</u></h1>
+        <form action="class_shedule table.php" method="POST">
+            <div class="form-group">
+                <label for="ScheduleID"> ScheduleID</label>
+                <input type="number" class="form-control" name="ScheduleID" uid="ScheduleID">
+            </div>
+            <div class="form-group">
+                <label for="ClassID">ClassID</label>
+                <input type="number" class="form-control" name="ClassID" id="ClassID">
+            </div>
+            <div class="form-group">
+                <label for="InstructorID">InstructorID</label>
+                <input type="number" class="form-control" name="InstructorID" id="InstructorID">
+            </div>
+            <div class="form-group">
+                <label for="StartTime">StartTime</label>
+                <input type="Date" class="form-control" name="StartTime" id="StartTime">
+            </div>
+            <div class="form-group">
+                <label for="EndTime">EndTime</label>
+                <input type="Date" class="form-control" name="EndTime" id="EndTime">
+            </div>
+            
+            
+            
+            <button type="submit" class="btn btn-primary">INSERT</button>
+        </form>
+        <form action="home.html">
+            <button type="submit" class="btn btn-secondary">BACK TO HOME</button>
+        </form>
+    </div>
+    <footer class="text-center mt-5"><!-- Footer section -->
+        <p>&copy; &reg; 2024 UR CBE BIT YEAR 2 @ nyirasipha</p><!-- Copyright and trademark notice -->
+    </footer><!-- Footer section -->
+
+    <!-- Bootstrap JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
